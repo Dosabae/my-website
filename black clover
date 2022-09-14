@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="website.css">
+    
+    <title>aarush ki apni website</title>
+</head>
+<body class="body">
+    <nav class="navbar background  h-nav-resp">
+        <ul class="jaadu v-class-resp">
+            <div class="logo"><img class="up" id="up" src="images\wp6395873-black-clover-desktop-wallpapers.jpg" alt="logo"></div>
+            <li><a href="#HOME">HOME</a></li>
+            <li><a href="#ABOUT">ABOUT</a></li>
+            <li><a href="#PREFERENCE">PREFERENCE</a></li>
+            <li><a href="#Contact">CONTACT US</a></li>
+        </ul>
+        <div class="rightbar v-class-resp">
+            <input type="text" class="text" name="search" id="search">
+            <button type="submit" id="submit">search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        
+    </nav>
+
+    <section class="background firstsection" id="HOME">
+        <div class="box-main">
+            <div class="first-half">
+                <p1 class="text-big">Black Clover</p1>
+                <p5 class="text-small">It is a great anime with astonishing action animation. Black clover is one of my favorite anime. My favorite thing in this anime is that the protagonist is very normal and weaker than others around him but still he makes his through to the strongest magic knight by his pure hardwork.</p5>
+                <div class="button">
+                    <button class="btn">Action</button>
+                </div>
+            </div>
+            <div class="second-half">
+                <img class="first-section" src="../images\wp6395873-black-clover-desktop-wallpapers.jpg" alt="black clover">
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="ABOUT" class="yami">
+        <div class="adarsh">
+            <p class="sectiontag">My Favourite Character</p>
+            <p class="sectionsubtag">Yami Sukiheru is my favourite Character not because he is strong but due to his personality .  Yami has fixed his priorities in his life . Unless in the anime it is shown that he is very careless but the fact that he have the good foresight of the future makes him super reliable. When Julius is on the verge of death he gives Yami the full responsibility of the kingdom. </p>
+        </div>
+        <div class="thumbnail">
+            <img class="thumb" src="../images\yami.jpg" alt="yami">
+        </div>
+    </section>
+
+    <section class="yuno">
+        <div class="spirit">
+            <img class="wind" src="../images\yuno.jpg" alt="yuno">
+        </div>
+        <div class="shreyansh">
+            <p class="tagsection">Yuno</p>
+            <p class="subsection">Yuno is the character with the most potential. He is the prince of spade kingdom. He is the character which is most connected to the protagonist, asta. Asta is able to get five-leaf grimoir only because of yuno. It is not wrong to say that yuno is responsible for the Asta's growth</p>
+        </div>
+       
+    </section>
+
+
+    <section class="contact" id="Contact">
+        <h2 class="name" >Contact Us</h2>
+        <div class="form" >
+            <input type="text" class="text" placeholder="Enter your name:" >
+            <input type="text" class="text" placeholder="Enter your phone-number:" >
+            <input type="text" class="text" placeholder="Enter your email:" >
+        </div>
+        <div class="bss">
+            <button class="end">Submit</button>
+        </div>
+    </section>
+
+    <footer class="copyright" id="PREFERENCE">
+        <p class="copy">
+            Copyright @2022 - all rights are resereved
+        </p>
+    </footer>
+    
+
+</body>
+<script src="website.js"></script>
+
+</html>
